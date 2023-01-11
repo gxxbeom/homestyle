@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>홈스타일</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/homestyle.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="css/homestyle.css">
+</head>
+<body>
+<header>
+	<h1>
+		<button type="button" class="open">&#9776;</button>
+		<button type="button" class="close">&#10005;</button>
+		<img src="images/logo.png" alt="logo">
+		<div class="search">
+			<input type="text" placeholder="Happy 2023! ~1/10 계묘년을 맞아 드리는 3가지 혜택 놓치지 마세요!" >
+			<img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+		</div>
+		<div id="topMenu">
+			<a href="#" class="arr">로그인</a><hr>
+			<a href="#" class="arr">회원가입</a><hr>
+			<a href="#" class="arr">마이페이지</a><hr>
+			<a href="#" class="arr">장바구니</a><hr>
+			<a href="#" class="arr">고객센터</a>
+		</div>
+	</h1>
+	<nav id="menu">		
+		<ul>
+			<li>
+				<a href="#" class="arr">BEST</a>
+				<nav>
+					<a href="#">BEST 침구</a>
+					<a href="#">BEST 커튼</a>
+					<a href="#">BEST 러그・매트</a>
+					<a href="#">BEST 홈데코</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#" class="arr">침구</a>
+				<nav>
+					<a href="#">극세사이불</a>
+					<a href="#">차렵이불</a>
+					<a href="#">이불커버</a>
+					<a href="#">침대패트・토퍼</a>
+					<a href="#">매트리스커버</a>
+					<a href="#">베개커버</a>
+					<a href="#">솜・세탁망</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#" class="arr">커튼</a>
+				<nav>
+					<a href="#">암막커튼</a>
+					<a href="#">쉬폰・속커튼</a>
+					<a href="#">면・린넨커튼</a>
+					<a href="#">화이트커튼</a>
+					<a href="#">소창형・패브릭</a>
+					<a href="#">이중커튼</a>
+					<a href="#">봉・레일・부자재</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#" class="arr">러그・매트</a>
+				<nav>
+					<a href="#">러그・카페트</a>
+					<a href="#">주방・현관・발매트</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#" class="arr">홈데코</a>
+				<nav>
+					<a href="#">쿠션・방석커버</a>
+					<a href="#">쇼파패드・쇼파커버</a>
+					<a href="#">키친페브릭</a>
+					<a href="#">실내화</a>
+					<a href="#">타올</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#" class="arr">SALE</a>
+			</li>
+			<li>
+				<a href="#" class="arr">BRAND</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<section id="banner">
+	<h2>비주얼 배너</h2>
+	<div class="outer">
+		<div class="inner-list">
+			<div class="inner">
+				<a><img src="images/banner3.jpeg" alt="한우리 내부전경"></a>
+			</div>
+			<div class="inner">
+				<a><img src="images/banner5.jpeg" alt="한우리 내부전경"></a>
+			</div>
+			<div class="inner">
+				<a><img src="images/banner.jpeg" alt="한우리 내부전경"></a>
+			</div>
+			<div class="inner">
+				<a><img src="images/banner2.jpeg" alt="한우리 내부전경"></a>
+			</div>
+			<div class="inner">
+				<a><img src="images/banner4.jpeg" alt="한우리 내부전경"></a>
+			</div>
+		</div>
+	</div>
+	<div class="button-list">
+		<a class="button-left"><button><span class="material-symbols-outlined">arrow_back_ios</span></button></a>
+		<a class="button-right"><button><span class="material-symbols-outlined">arrow_forward_ios</span></button></a>
+	</div>
+</section>
+<section id="app">
+	<a href="#"><img src="images/banner3.jpeg"></a>
+</section>
+<div id="layout">
+	<section id="sec01">
+		<h2 class="h2">
+			<ruby>
+				쇼핑 스토리
+				<rt>Shoping Story</rt>
+			</ruby>
+		</h2>
+		<hr class="line">
+		<div>
+			<img src="images/story1.jpeg">
+			<img src="images/story2.jpeg">
+		</div>
+		<a href="#" class="linkBtn">전체 보기</a>
+		<hr>
+	</section>
+	<div id="sec02">
+		<h2 class="h2">
+			<ruby>
+				카테고리
+				<rt>Category</rt>
+			</ruby>
+		</h2>
+		<hr class="line">
+		<div>
+			<section class="category">
+				<a href="#"><img src="images/cate1.jpeg" alt="디너"></a>
+				<div>
+					<h2>
+						<ruby>
+							침구
+							<rt>Bedding</rt>
+						</ruby>			
+					</h2>
+				</div>
+			</section>
+			<section class="category">
+				<a href="#"><img src="images/cate2.jpeg" alt="디너"></a>
+				<h2>
+					<ruby>
+						커튼
+						<rt>Curtain</rt>
+					</ruby>			
+				</h2>
+			</section>
+			<section class="category">
+				<a href="#"><img src="images/cate3.jpeg" alt="디너"></a>
+				<h2>
+					<ruby>
+						러그・매트
+						<rt>Rug/Mat</rt>
+					</ruby>			
+				</h2>
+			</section>
+			<section class="category">
+				<a href="#"><img src="images/cate4.jpeg" alt="디너"></a>
+				<h2>
+					<ruby>
+						홈데코
+						<rt>HomeDecor</rt>
+					</ruby>			
+				</h2>
+			</section>
+		</div>
+		<a href="#" class="linkBtn">전체 보기</a>
+		<hr>
+	</div>
+	<section id="sec03">
+		<h2 class="h2">
+			<ruby>
+				신상품 5% 추가 할인
+				<rt>New Arrivals Sale</rt>
+			</ruby>
+		</h2>
+		<hr class="line">
+		<div id="sec03_list">
+			<section>
+				<a href="#"><img src="images/new1.jpg" alt="플라워 자수 차렵이불"></a>
+				<div>
+					<h3>
+						<ruby>
+							플라워 자수 차렵이불
+							<rt>3colors</rt>
+						</ruby>					
+					</h3>
+					<p>59,900</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new2.jpg" alt="쉬폰 나비 커튼"></a>
+				<div>
+					<h3>
+						<ruby>
+							쉬폰 나비 커튼
+							<rt>6colors</rt>
+						</ruby>					
+					</h3>
+					<p>14,900</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new3.jpg" alt="린넨 암막커튼"></a>
+				<div>
+					<h3>
+						<ruby>
+							린넨 암막커튼
+							<rt>2colors</rt>
+						</ruby>					
+					</h3>
+					<p>25,900</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new4.jpg" alt="플라워 프릴 쿠션커버"></a>
+				<div>
+					<h3>
+						<ruby>
+							플라워 프릴 쿠션커버
+							<rt>4colors</rt>
+						</ruby>					
+					</h3>
+					<p>15,900</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new5.jpg" alt="고밀도 차렵이불"></a>
+				<div>
+					<h3>
+						<ruby>
+							고밀도 차렵이불
+							<rt>3colors</rt>
+						</ruby>					
+					</h3>
+					<p>59,900</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new6.jpg" alt="워싱체크 침구세트"></a>
+				<div>
+					<h3>
+						<ruby>
+							워싱체크 침구세트
+							<rt>4colors</rt>
+						</ruby>					
+					</h3>
+					<p>105,000</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new7.jpg" alt="샤기 러그 카페트"></a>
+				<div>
+					<h3>
+						<ruby>
+							샤기 러그 카페트
+							<rt>2colors</rt>
+						</ruby>					
+					</h3>
+					<p>47,500</p>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/new8.jpg" alt="워싱 데이지 식탁보"></a>
+				<div>
+					<h3>
+						<ruby>
+							워싱 데이지 식탁보
+							<rt>4colors</rt>
+						</ruby>					
+					</h3>
+					<p>18,900</p>
+				</div>
+			</section>
+		</div>
+		<a href="#" class="linkBtn">전체 보기</a>
+	</section>
+	<section id="sec04">
+		<h2 class="h2">
+			<ruby>
+				베스트 상품 100
+				<rt>Best Products</rt>
+			</ruby>
+		</h2>
+		<hr class="line">
+		<div id="best">
+			<ection>
+				<a href="#"><img src="images/best2.jpeg"></a>
+				<div class="bestinfo">
+					<span>SS/Q/K - 11colors</span>
+					<a href="#"><P>항균워싱 차렵이불</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">40%</p>
+						<p class="price1">61,500원</p>
+						<p class="price2">36,900원</p>
+					</div>
+				</div>
+			</ection>
+			<section>
+				<a href="#"><img src="images/best1.jpeg"></a>
+				<div class="bestinfo">
+					<span>S/SS - 3colors</span>
+					<a href="#"><P>모달100% 레이스 차렵이불</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">40%</p>
+						<p class="price1">125,900원</p>
+						<p class="price2">75,500원</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/best3.jpeg"></a>
+				<div class="bestinfo">
+					<span>SS/Q/K - 11colors</span>
+					<a href="#"><P>호텔식 고밀도 차렵이불</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">40%</p>
+						<p class="price1">104,100원</p>
+						<p class="price2">62,500원</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/best4.jpeg"></a>
+				<div class="bestinfo">
+					<span>SS/Q/K - 3colors</span>
+					<a href="#"><P>워싱 체크 차렵이불</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">30%</p>
+						<p class="price1">85,500원</p>
+						<p class="price2">59,900원</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/best5.jpeg"></a>
+				<div class="bestinfo">
+					<span>7colors</span>
+					<a href="#"><P>나비주름 암막커튼</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">63%</p>
+						<p class="price1">61,500원</p>
+						<p class="price2">22,900원</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/best6.jpeg"></a>
+				<div class="bestinfo">
+					<span>2colors</span>
+					<a href="#"><P>아이보리 원형러그 카펫</P><a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">40%</p>
+						<p class="price1">125,000원</p>
+						<p class="price2">75,000원</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="#"><img src="images/best7.jpeg"></a>
+				<div class="bestinfo">
+					<span>1colors</span>
+					<a href="#"><P>블루 플라워 식탁보</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">30%</p>
+						<p class="price1">34,000원</p>
+						<p class="price2">23,900원</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<img src="images/best8.jpeg">
+				<div class="bestinfo">
+					<span>3colors</span>
+					<a href="#"><P>피그먼트 워싱 쇼파커버</P></a>
+					<hr class="besthr">
+					<div>
+						<p class="discount">30%</p>
+						<p class="price1">71,000원</p>
+						<p class="price2">49,500원</p>
+					</div>
+				</div>
+			</section>
+			<a href="#" class="linkBtn">전체 보기</a>
+		</div>
+		<hr>
+	</section>
+	<section id="event">
+		<h2 class="h2">
+			<ruby>
+				홈스타일 기획전
+				<rt>Exhibitions</rt>
+			</ruby>
+		</h2>
+		<hr class="line">
+			<div>
+				<img src="images/event2.jpeg">
+				<img src="images/event1.jpeg">
+			</div>
+			<a href="#" class="linkBtn">전체 보기</a>
+			<hr class="line">
+		</section>
+</div>
+<section id="about">
+	<img src="images/bed7.png" alt="띠배너">
+	<h2 class="h2">
+		<ruby>
+			저희 홈스타일은
+			<rt>About HomeStyle</rt>
+		</ruby>
+	</h2>
+	<hr class="line">
+	<h3>남이 아닌 내가, 내 가족이 쓴다는 진실한 마음</h3><br>
+	<div>
+		<p>
+			라이프 스타일 브랜드 '홈스타일' 이 추구하는 바는
+			단순히 이불을 포함한 침구류를 판매하는 것이 아닙니다.<br>
+			저와 같은 한 사람 그리고 한 가정의 삶에 홈스타일이 스며들기를 바랍니다.<br><br>
+			단순한 제품에서 감성과 인테리어를 담기까지, <br>
+			고객이 인테리어를 위한 제품을 구매할 때
+			홈스타일이 가이드라인이 되어드리겠습니다.
+		</p>
+	</div>
+	<a href="#" class="linkBtn">자세히 보러가기</a>
+</section>
+<section id="insta">
+	<div id="instamenu">
+		<div>
+			<a href="#"><img src="images/sns4.png"></a>
+		</div>
+		<div>
+			<a href="#">INSTAGRAM</a><hr class="shortline">
+		</div>
+		<div>
+			<a href="#">@gxxbeom</a><hr class="shortline">
+		</div>
+		<div>
+			<a href="#">FOLLOW ME ON INSTAGRAM</a>
+		</div>
+	</div>
+	<hr>
+	<div id="instaimg">
+		<div>
+			<a href="#"><img src="images/insta1.jpeg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/insta2.jpeg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/insta3.jpeg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/insta6.jpeg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/cate1.jpeg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/new1.jpg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/insta5.jpeg"></a>
+		</div>
+		<div>
+			<a href="#"><img src="images/insta4.jpeg"></a>
+		</div>
+	</div>
+</section>
+<footer>
+	<section>
+		<div>
+			<a href="#"><img src="images/logo2.png" alt="하단 로고"></a>
+		</div>
+		<div>
+			<p>
+				라이프스타일 침구 (주)홈스타일 | Adress. 경기 성남시 분당구 장미로55  | Tel. 010-3993-4877<br>
+				Copyrightⓒ2019 HOMESTYLE. All Right Reserved.
+			</p>
+		</div>
+		<div id="sns">
+			<a href="#"><img src="images/sns1.png" alt="인스타그램"></a>
+			<a href="#"><img src="images/sns2.png" alt="카카오톡"></a>
+			<a href="#"><img src="images/sns3.png" alt="블로그"></a>
+		</div>
+	</section>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
