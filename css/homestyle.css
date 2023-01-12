@@ -128,7 +128,7 @@ header img { width:150px; margin-left:100px;}
 
 
 /*h2 디자인 통합관리*/
-.h2 	{text-align:center; font-size:20pt; font-weight:400;}
+.h2 	{text-align:center; font-size:22pt; font-weight:400;}
 .h2  rt {
 		text-align:center; color:#cfa972; 
 		font-size:1rem; font-weight:700;
@@ -157,7 +157,7 @@ header img { width:150px; margin-left:100px;}
 	width:80vw;
 	margin:auto;
 }
-#sec01 h2 { font-size:20pt; font-weight:400; 
+#sec01 h2 { font-size:22pt; font-weight:400; 
 	margin-bottom:20px;
 }
 #sec01 div { 
@@ -196,19 +196,25 @@ header img { width:150px; margin-left:100px;}
 #sec02 a img 		{transition:0.5s;}
 #sec02 a:hover img	{filter: brightness(50%); transform: scale(1.2); }
 /*카테고리: 이미지아래 글자*/
-#sec02 ruby {
-	font-size:20pt; font-weight:400; 
+#sec02 >.h2 {
+	font-size:22pt; font-weight:400; 
 	/* border:1px solid red; */
 }
-.category div { border:1px solid red;
-	margin-top:30px;
+.category div { 
+	margin:auto;
+	margin-top:40px;
+	margin-bottom: 20px;
 }
 #sec02 section h2 {
 		width:320px;
 		margin:auto;
 }
-#sec02 rt {
-		color:#cfa972; font-size:1rem; 
+.category div ruby {
+	font-size:18pt;
+	margin:auto;
+}
+.category rt {
+		color:#cfa972; font-size:0.8rem; 
 		font-weight:800; letter-spacing:0.2pt;
 		transform:translateY(-15px);
 }
