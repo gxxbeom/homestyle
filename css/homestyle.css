@@ -423,7 +423,7 @@ footer img { width:150px;}
 		overflow:hidden;
 	}
 	#menu  a.arr::after {content:"▼"; float:right; color:gray;}
-	#menu  a.arr.act::after{content:"▲"; color:#ddd;}
+	#menu  li.act a.arr::after{content:"▲"; color:#ddd;}
 	#menu ul  {flex-direction:column;}
 	#menu nav {position:relative;}
 	.inner img:not(:first-child) { display:none;}
