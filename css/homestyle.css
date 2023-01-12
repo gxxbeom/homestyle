@@ -142,7 +142,7 @@ header img { width:150px; margin-left:100px;}
 }
 
 /* 모바일용 배너이미지 */
-#app { display:none; margin-top:50px;}
+.app { display:none; margin-top:50px;}
 
 
 /* 레이아웃 */
@@ -427,7 +427,7 @@ footer img { width:150px;}
 	#banner img {
 		display:none;
 	}
-	#app {
+.app {
 		display: block;
 	}
 	
@@ -490,6 +490,14 @@ footer img { width:150px;}
 	}
 	#instaimg {
 		flex-wrap: wrap;
+	}
+	#instaimg img {
+		width:100px;
+		height: 100px;
+	}
+	#instaimg .app {
+		/* border:1px solid red; */
+		margin:0;
 	}
 	footer section {
 		display: flex;
